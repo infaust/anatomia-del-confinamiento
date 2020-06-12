@@ -1,0 +1,12 @@
+baseURL = "http://anatomiadelconfinamiento.com/"
+languageCode = "es"
+title = "Anatomía del confinamiento"
+
+[deployment]
+
+
+
+[[deployment.targets]]
+
+name = "s3"
+URL = "s3://anatomiadelconfinamiento.com?region=eu-west-3"
